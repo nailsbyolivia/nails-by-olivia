@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="login-container">
+
+    <h1>Gallery Manager</h1>
+
+    <p>
+        Beheer hier alle foto's van Olivia.
+    </p>
+
+    <div id="addDesignForm">
+
+        <input
+            type="text"
+            id="titel"
+            placeholder="Titel van de creatie">
+
+        <textarea
+            id="beschrijving"
+            rows="5"
+            placeholder="Beschrijving van de creatie">
+        </textarea>
+
+        <input
+            type="file"
+            id="foto"
+            accept="image/*">
+
+        <img
+    id="preview"
+    style="
+        display:none;
+        width:200px;
+        margin-top:10px;
+        border-radius:15px;
+    ">
+
+        <button id="saveBtn">
+            Opslaan
+        </button>
+
+    </div>
+
+    <h2>Saved Designs</h2>
+
+    <div id="designList">
+    </div>
+<button id="publishBtn">
+    Publiceer Gallery
+</button>
+    <a href="admin.html" class="back-button">
+        Terug naar Admin
+    </a>
+
+</div>
+
+<script src="gallery-admin-v2.js"></script>
+gallery.jsscript>
+
+</body>
+</html>
