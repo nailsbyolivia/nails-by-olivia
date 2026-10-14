@@ -22,7 +22,7 @@ body{
 .logo{
     font-size:42px;
     font-weight:bold;
-    color:#cc8ea2;
+    color:#4aae3f;
 }
 
 .menu{
@@ -253,13 +253,39 @@ button:hover{
 
     .navbar{
         flex-direction:column;
-        gap:15px;
+        gap:60px;
     }
 
-    .menu{
-        flex-wrap:wrap;
-        justify-content:center;
-    }
+   ul.menu{
+    display:grid !important;
+    grid-template-columns:120px 120px !important;
+    grid-auto-rows:auto;
+    gap:12px;
+    justify-content:center;
+    padding:0;
+    margin:0 auto;
+    border:3px solid red;
+}
+
+.menu li{
+    width:120px;
+}
+
+.menu a{
+    display:block;
+    width:100%;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.menu li{
+    list-style:none;
+}
+
+.menu a{
+    display:block;
+    text-align:center;
+}
 
     .hero h1{
         font-size:55px;
