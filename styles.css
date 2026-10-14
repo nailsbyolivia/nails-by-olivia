@@ -22,7 +22,7 @@ body{
 .logo{
     font-size:42px;
     font-weight:bold;
-    color:#4aae3f;
+    color:#cc8ea2;
 }
 
 .menu{
@@ -264,7 +264,7 @@ button:hover{
     justify-content:center;
     padding:0;
     margin:0 auto;
-    border:3px solid red;
+    
 }
 
 .menu li{
